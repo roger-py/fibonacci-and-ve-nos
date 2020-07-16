@@ -1,0 +1,26 @@
+#fibonacci series
+x=eval(input("Provide the required number of fibonacci number: "))
+mycount=0
+a=0
+b=1
+mysum=0
+while mycount<x:
+    print(mysum)
+    a=b
+    b=mysum
+    mysum=a+b
+    mycount+=1
+    
+    
+    
+#select positive nos
+x=eval(input("Provide the list of nos.: "))
+y=[]
+z=[]
+for i in x:
+    if i>0 :
+        y.append(i)
+    elif i==0:
+        z=i
+print("The positive nos. from list: ",y)
+print('The zeroes in list: ',z)
